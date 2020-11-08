@@ -11,14 +11,15 @@ public class firstUseCase {
 
     @BeforeMethod
     public void setUp() {
-        System.out.println("This is before test");
+        System.out.println("Before method");
         System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
     }
 
 
     @Test
     void useCase1() {
-        System.out.println("This is test case");
+        //start
+        System.out.println("This use case start here with login on webapp");
         WebDriver driver = new FirefoxDriver();
         driver.get("https://qa-sandbox.apps.htec.rs/login");
         WebElement email = driver.findElement(By.name("email"));
@@ -50,18 +51,21 @@ public class firstUseCase {
             //driver.findElement(By.cssSelector(".text-primary:nth-child(2)")).click();
         }
 
-        String firstStep = "this is a first step";
-        String secondStep = "this is a second step";
-        String thirdStep = "this is a third step";
-        String fourthStep = "this is a fourth step";
+        String firstStep = "This is a first step.";
+        String secondStep = "this is a second step?";
+        String thirdStep = "this is a third step!";
+        String fourthStep = "this is a fourth step,";
 
 
         WebElement useCaseStep1 = driver.findElement(By.id("stepId"));
         useCaseStep1.sendKeys(firstStep);
+
         WebElement useCaseStep2 = driver.findElement(By.name("testStepId-1"));
         useCaseStep2.sendKeys(secondStep);
+
         WebElement useCaseStep3 = driver.findElement(By.name("testStepId-2"));
         useCaseStep3.sendKeys(thirdStep);
+
         WebElement useCaseStep4 = driver.findElement(By.name("testStepId-3"));
         useCaseStep4.sendKeys(fourthStep);
 

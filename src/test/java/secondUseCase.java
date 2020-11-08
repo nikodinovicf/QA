@@ -50,42 +50,21 @@ public class secondUseCase {
         }
 
 
-        String firstStep = "this is a first step";
-        //char counter
-        int lengthOfStep1 = firstStep.replace(" ", "").length();
-        System.out.println("this field previously had " + lengthOfStep1 + " characters");
-        String updateStep1 = "this field previously had " + lengthOfStep1 + " characters";
-        System.out.println(updateStep1);
-
-        String secondStep = "this is a second step";
-        //char counter
-        int lengthOfStep2 = secondStep.replace(" ", "").length();
-        System.out.println("this field previously had " + lengthOfStep2 + " characters");
-        String updateStep2 = "this field previously had " + lengthOfStep2 + " characters";
-        System.out.println(updateStep2);
-
-
-        String thirdStep = "this is a third step";
-        //char counter
-        int lengthOfStep3 = secondStep.replace(" ", "").length();
-        System.out.println("this field previously had " + lengthOfStep3 + " characters");
-        String updateStep3 = "this field previously had " + lengthOfStep3 + " characters";
-        System.out.println(updateStep3);
-
-        String fourthStep = "this is a fourth step";
-        //char counter
-        int lengthOfStep4 = secondStep.replace(" ", "").length();
-        System.out.println("this field previously had " + lengthOfStep4 + " characters");
-        String updateStep4 = "this field previously had " + lengthOfStep4 + " characters";
-        System.out.println(updateStep4);
+        String firstStep = "This is a first step.";
+        String secondStep = "this is a second step?";
+        String thirdStep = "this is a third step!";
+        String fourthStep = "this is a fourth step,";
 
 
         WebElement useCaseStep1 = driver.findElement(By.id("stepId"));
         useCaseStep1.sendKeys(firstStep);
+
         WebElement useCaseStep2 = driver.findElement(By.name("testStepId-1"));
         useCaseStep2.sendKeys(secondStep);
+
         WebElement useCaseStep3 = driver.findElement(By.name("testStepId-2"));
         useCaseStep3.sendKeys(thirdStep);
+
         WebElement useCaseStep4 = driver.findElement(By.name("testStepId-3"));
         useCaseStep4.sendKeys(fourthStep);
 
