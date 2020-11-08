@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/fnikodin/GitFN/HTEC/src/test/java">
+        <classes>
+            <class name="firstUseCase"></class>
+            <class name="secondUseCase"></class>
+            <class name="thirdUseCase"></class>
+            <class name="fourthUseCase"></class>
+            <class name="updateFirstUseCase"></class>
+            <class name="updateSecondUseCase"></class>
+            <class name="updateThirdUseCase"></class>
+            <class name="updateFourthUseCase"></class>
+        </classes>
+    </test>
+</suite>
