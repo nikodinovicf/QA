@@ -3,14 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/fnikodin/GitFN/HTEC/src/test/java">
         <classes>
-            <class name="firstUseCase"></class>
-            <class name="secondUseCase"></class>
-            <class name="thirdUseCase"></class>
-            <class name="fourthUseCase"></class>
-            <class name="updateFirstUseCase"></class>
-            <class name="updateSecondUseCase"></class>
-            <class name="updateThirdUseCase"></class>
-            <class name="updateFourthUseCase"></class>
+            <class name="updateUseCase"></class>
+
         </classes>
     </test>
 </suite>

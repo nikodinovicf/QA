@@ -27,7 +27,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.3.0</version>
-            <scope>firstUseCase</scope>
+            <scope>createUseCase</scope>
         </dependency>
 
     </dependencies>
