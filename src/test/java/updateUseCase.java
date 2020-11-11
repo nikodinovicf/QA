@@ -271,5 +271,4 @@ public class updateUseCase {
         WebElement saveUseCase = driver.findElement(By.cssSelector(".btn-primary"));
         saveUseCase.click();
     }
-
 }
