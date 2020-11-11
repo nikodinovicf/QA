@@ -3,8 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/fnikodin/GitFN/HTEC/src/test/java">
         <classes>
+            <class name="createUseCase"></class>
             <class name="updateUseCase"></class>
-
         </classes>
     </test>
 </suite>
