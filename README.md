@@ -1,4 +1,4 @@
-# Foobar
+# HTEC
 
 This is test project for job interview. 
 
